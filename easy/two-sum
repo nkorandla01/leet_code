@@ -2,7 +2,10 @@
 ###https://www.youtube.com/watch?v=zKP7sko-mrw
 ###https://www.youtube.com/watch?v=8uYHAM-dtVA
 
-
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        if len(nums) <= 1:
+            return False
         dict1 = {}
         for i in range(len(nums)):
             if nums[i] in dict1:
