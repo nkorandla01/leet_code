@@ -1,0 +1,9 @@
+##https://www.edureka.co/blog/python-program-to-check-palindrome/
+
+
+## str = "racecar"
+str = raw_input("Enter the String:")
+if (str == str[::-1]):
+  print(str+ " palindrome")
+else:
+  print(str+ " not palindrome")
