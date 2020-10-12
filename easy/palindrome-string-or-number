@@ -1,0 +1,13 @@
+##https://www.edureka.co/blog/python-program-to-check-palindrome/
+##functions https://www.w3schools.com/python/python_functions.asp
+## https://www.geeksforgeeks.org/string-slicing-in-python/
+## Palindrome function to check if the entered string or number is a palindrome.
+## we use slice operation to compare the input provided. 
+
+def palindrome(str):
+  if (str == str[::-1]):
+    print(str+ " is a palindrome")
+  else:
+    print(str+ " is not a palindrome")
+
+palindrome(raw_input("Enter the Sting or Number:"))
